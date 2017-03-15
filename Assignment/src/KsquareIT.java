@@ -3,6 +3,7 @@ import java.util.Scanner;
 class KsquareIT {
 	public static void main(String[] args) {
 
+		System.out.println("Test 1");
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		String string_input = sc.nextLine();
