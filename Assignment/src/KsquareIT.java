@@ -9,6 +9,7 @@ class KsquareIT {
 		String string_input = sc.nextLine();
 		String[] input_split = string_input.split(" ");
 		int n = Integer.valueOf(input_split[input_split.length - 1]);
+		System.out.println("Test 2");
 
 		String string_reverse = new StringBuffer(input_split[n - 1]).reverse().toString();
 		String blank_space = "";
